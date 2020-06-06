@@ -3,8 +3,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/superuser/.oh-my-zsh"
-export PATH=$PATH:/Users/superuser/Library/Python/3.7/bin
+export ZSH="/Users/macuser/.oh-my-zsh"
+export PATH=$PATH:/Users/macuser/Library/Python/3.7/bin
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -99,14 +99,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="nano ~/.oh-my-zsh"
 alias ll='ls -rahtl'
-#export PATH="$PATH:/Users/superuser/temp/yarn-v1.22.4/bin"
+#export PATH="$PATH:/Users/macuser/temp/yarn-v1.22.4/bin"
 
 # DENO
-export DENO_INSTALL="/Users/superuser/.deno"
+export DENO_INSTALL="/Users/macuser/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 # COMPOSER GLOBAL
-export PATH="/Users/superuser/.composer/vendor/bin:$PATH"
+export PATH="/Users/macuser/.composer/vendor/bin:$PATH"
 autoload -U promptinit; promptinit
 prompt pure
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
